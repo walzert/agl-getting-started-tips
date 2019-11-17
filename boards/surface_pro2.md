@@ -1,8 +1,4 @@
-# Boards
-
-These boards were tested and the features are working:
-
-## Surface Pro2 
+# Surface Pro2 
 
 Image :
 

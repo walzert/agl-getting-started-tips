@@ -1,9 +1,4 @@
-# Boards
-
-These boards were tested and the features are working:
-
-
-## Raspberry Pi 4
+# Raspberry Pi 4
 
 Image :
 

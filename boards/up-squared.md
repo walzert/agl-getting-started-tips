@@ -1,10 +1,4 @@
-# Boards
-
-These boards were tested and the features are working:
-
-
-
-## Up²
+# Up²
 
 Image :
 
