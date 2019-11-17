@@ -15,8 +15,9 @@ I tested follwing boards:
 
 The following list contains some information to getting started with some features:
 
-| Feature |  |
-| --- | --- | 
-| CAN | [CAN](CAN/can.md) | 
-| Audio | [Audio](audio/audio.md) | 
-| Display | [Display](display/display.md) | 
+| Feature | Description | Link  |
+| --- | --- | --- |
+| CAN | How to configure CAN (virtual /serial) and use in AGL | [CAN](CAN/can.md) | 
+| Audio | How to set the standard audio device | [Audio](audio/audio.md) | 
+| Display | How to find out which display is connected and set rotation | [Display](display/display.md) | 
+| Network | How to set the ip adress in AGL | [Network](network/network.md) | 
