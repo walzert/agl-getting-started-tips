@@ -2,104 +2,21 @@
 
 These boards were tested and the features are working:
 
-## Surface Pro2 
-
-Image :
-
-agl-devel agl-demo agl-html5
-
-| Feature | Software | Hardware |
-| --- | --- | ---|
-| CAN | slcan | USBtin| 
-| Audio | pipewire | internal|
-| Display |  | internal eDP1 |
-| Touch |  | internal | 
-| Radio | rtl-sdr | Realtek RTL2832U |
-| Bluetooth | | internal |
-
-On the Surface there is a USB-hub attached with a USB stick with AGL, a RTL-SDR and USBtin as CAN-Bus connector.
-
-Feature test:
-
-| Feature | Working | Problems |
-| --- | --- | --- |
-| Radio | yes | - |
-| Phone | parts | Microfon is not working |
-| Multimedia | yes | - |
-| Browser | yes | -|
+I tested follwing boards:
 
 
-## Raspberry Pi 3
-
-Image :
-
-agl-devel agl-demo agl-html5
-
-
-| Feature | Software | Hardware |
-| --- | --- | ---|
-| CAN | slcan | USBtin| 
-| Audio | pipewire | internal|
-| Display |  | HDMI / DSI |
-| Touch |  |  non / internal | 
-| Radio | rtl-sdr | RTLXXX |
-| Bluetooth | | internal |
-
-Feature test:
-
-| Feature | Working | Problems |
-| --- | --- | --- |
-| Radio | - | - |
-| Phone | - | - |
-| Multimedia | - | - |
-| Browser | - | -|
-
-## Raspberry Pi 4
-
-Image :
-
-agl-devel agl-demo agl-html5
+| Board |  |
+| --- | --- | 
+| Up ² | [Up2](boards/up-squared.md) | 
+| Raspberry Pi 3 | [Pi 3](raspberry_pi3.md) | 
+| Raspberry Pi 4 | [Pi 4](raspberry_pi4.md) | 
+| Surface Pro 2 | [Surface Pro 2](surface_pro2.md) | 
 
 
-| Feature | Software | Hardware |
-| --- | --- | ---|
-| CAN | slcan | USBtin| 
-| Audio | pipewire | internal|
-| Display |  | HDMI (ex)  |
-| Touch |  | - | 
-| Radio | rtl-sdr | RTLXXX |
-| Bluetooth | | internal |
+The following list contains some information to getting started with some features:
 
-Feature test:
-
-| Feature | Working | Problems |
-| --- | --- | --- |
-| Radio | - | - |
-| Phone | - | - |
-| Multimedia | - | - |
-| Browser | - | -|
-
-## Up²
-
-Image :
-
-agl-devel agl-demo agl-html5
-
-
-| Feature | Software | Hardware |
-| --- | --- | ---|
-| CAN | slcan | USBtin| 
-| Audio | pipewire | internal|
-| Display |  | HDMI (ex) |
-| Touch |  | USB  (ex) | 
-| Radio | rtl-sdr | RTLXXX |
-| Bluetooth | | external |
-
-Feature test:
-
-| Feature | Working | Problems |
-| --- | --- | --- |
-| Radio | - | - |
-| Phone | - | - |
-| Multimedia | - | - |
-| Browser | - | -|
+| Feature |  |
+| --- | --- | 
+| CAN | [CAN](CAN/can.md) | 
+| Audio | [Audio](audio/audio.md) | 
+| Display | [Display](display/display.md) | 
