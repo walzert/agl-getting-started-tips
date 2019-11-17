@@ -24,3 +24,6 @@ Feature test:
 | Multimedia | yes | - |
 | Browser | yes | -|
 
+![AGL on Surface][surface_img]
+
+[surface_img]: agl_surface.jpg

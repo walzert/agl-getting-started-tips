@@ -20,7 +20,8 @@ To enable a virtual can device use following commands
 /sbin/ifconfig slcan0 up
 ```
 
-that could although be done with a service-file in /lib/systemd/system
+that could although be done with a service-file in /lib/systemd/system my [example](socketcan-interface-slcan0.service) for the [USBtin](https://www.fischl.de/usbtin/) slcan-adaper.
+
 
 After that you are able to use the commands 
 

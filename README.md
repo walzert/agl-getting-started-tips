@@ -7,10 +7,10 @@ I tested follwing boards:
 
 | Board |  |
 | --- | --- | 
-| Up ² | [Up2](boards/up-squared.md) | 
-| Raspberry Pi 3 | [Pi 3](boards/raspberry_pi3.md) | 
-| Raspberry Pi 4 | [Pi 4](boards/raspberry_pi4.md) | 
-| Surface Pro 2 | [Surface Pro 2](boards/surface_pro2.md) | 
+| Up ² | [Up2](boards/up-squared/up-squared.md) | 
+| Raspberry Pi 3 | [Pi 3](boards/raspberry_pi3/raspberry_pi3.md) | 
+| Raspberry Pi 4 | [Pi 4](boards/raspberry_pi4/raspberry_pi4.md) | 
+| Surface Pro 2 | [Surface Pro 2](boards/surface_pro2/surface_pro2.md) | 
 
 
 The following list contains some information to getting started with some features:
