@@ -11,7 +11,7 @@ modprobe vcan
 ip link add vcan0 type vcan
 ip link set vcan0 up
 ```
-To enable a virtual can device use following commands
+To enable a serial can  (slcan)  device use following commands
 
 ``` 
 /sbin/modprobe slcan; 
