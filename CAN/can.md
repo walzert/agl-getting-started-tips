@@ -42,7 +42,7 @@ hs="slcan0"
 ls="slcan0"
 ```
 
-according with your candevice.
+according with your candevice. After that `chsmack -a '_' /etc/dev-mapping.conf` and do a `rebooot` .
 
 By entering the following command attention for the right version, you could check that with `afm-util list -a `
 
