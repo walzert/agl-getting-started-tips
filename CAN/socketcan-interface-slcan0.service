@@ -1,5 +1,5 @@
 [Unit]
-Description=SocketCAN serial interface slcan0 with a baudrate of 250000
+Description=SocketCAN serial interface slcan0 with a baudrate of 500000
 After=multi-user.target
 
 [Service]
