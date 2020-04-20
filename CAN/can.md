@@ -15,7 +15,7 @@ To enable a serial can  (slcan)  device use following commands
 
 ``` 
 /sbin/modprobe slcan; 
-/usr/bin/slcan_attach -f -s5 -o /dev/ttyACM0;
+/usr/bin/slcan_attach -f -s6 -o /dev/ttyACM0;
 /usr/bin/slcand ttyACM0 slcan0;
 /sbin/ifconfig slcan0 up
 ```
