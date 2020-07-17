@@ -70,7 +70,7 @@ you should get following information and we are interrested in the **http-port**
 
 ```
 
-After that you should be able with `afb-client-demo --human 'IPADRESS:31022/api?token=HELLO&uuid=magic' ` to connect to the serice.
+After that you should be able with `afb-client-demo --human 'localhost:31022/api?token=HELLO&uuid=magic' ` to connect to the serice.
 
 There you could use the following commands [AGL Docs CAN][2] :
 
