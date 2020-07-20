@@ -20,6 +20,13 @@ To enable a serial can  (slcan)  device use following commands
 /sbin/ifconfig slcan0 up
 ```
 
+``` 
+modprobe slcan; 
+slcan_attach -f -s6 -o /dev/ttyACM0;
+slcand ttyACM0 slcan0;
+fconfig slcan0 up
+```
+
 that could although be done with a service-file in /lib/systemd/system my [example](socketcan-interface-slcan0.service) for the [USBtin](https://www.fischl.de/usbtin/) slcan-adaper.
 
 
