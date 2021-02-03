@@ -1,0 +1,14 @@
+[Unit]
+Description=SocketCAN serial interface vcan0 with a baudrate of 500000
+Requires=systemd-networkd.service
+After=systemd-networkd.service
+
+[Service]
+Type=oneshot
+RemainAfterExit=yes
+ExecStart=/sbin/modprobe vcan ; /usr/bin/ip link add vcan0 type vcan ; /usr/bin/ip link set vcan0 up 
+ExecReload=/sbin/ifconfig vcan0 down ; /sbin/ifconfig vcan0 up
+ExecStop=/sbin/ifconfig vcan0 down
+
+[Install]
+WantedBy=multi-user.target
