@@ -54,7 +54,7 @@ according with your candevice. After that `chsmack -a '_' /etc/dev-mapping.conf`
 By entering the following command attention for the right version, you could check that with `afm-util list -a `
 
 ```
-afm-util detail agl-service-can-low-level@8.0
+afm-util detail agl-service-can-low-level
 ```
 
 you should get following information and we are interrested in the **http-port** : 
