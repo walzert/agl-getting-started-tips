@@ -9,4 +9,5 @@ Change coordinates in /etc/naviconfig.ini
 If necessary set time zone with:
 
 ln -T /usr/share/zoneinfo/YOURTIMEZONE /etc/localtime
+
 ln -T /usr/share/zoneinfo/Europe/Berlin /etc/localtime
